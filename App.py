@@ -1,14 +1,5 @@
-123 
-456
-
-
-456
-
-64564
-
-
-456456
-789789
-113123123131
-12213
-123
+    import gradio as gr
+    def greet(name):
+        return "Hello" + name + "!!"
+    iface = gr.Interface(fn=greet, inputs="text", outputs="text")
+    iface.launch()
