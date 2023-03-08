@@ -1,10 +1,13 @@
 import gradio as gr
-
+import time
 
 def hello(i):
     # classifier = pipeline("sentiment-analysis")
     # a = classifier(i)
     # return a
+    while True:
+        print('test')
+        time.sleep(1)
     return "hello" + i
     
 iface = gr.Interface(fn=hello, inputs="text", outputs="text")
