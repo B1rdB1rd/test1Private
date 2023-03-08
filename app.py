@@ -1,5 +1,5 @@
 import gradio as gr
-import time
+# import time
 
 def hello(i):
     # classifier = pipeline("sentiment-analysis")
