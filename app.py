@@ -2,8 +2,8 @@ import gradio as gr
 # import time
 
 def hello(i):
-    DSADDSAdsa
-#     return "Hello " + name + "!!"
+
+    return "Hello " + name + "!!"
 #     classifier = pipeline("sentiment-analysis")
 #     a = classifier(i)
     
