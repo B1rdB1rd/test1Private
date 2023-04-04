@@ -13,7 +13,8 @@ def hello(i):
 #         time.sleep(1)
 #     return "hello"
     
-try:
+tryghgmjhkk,:
+    
     iface = gr.Interface(fn=hello, inputs="text", outputs="text")
     iface.launch(server_name="0.0.0.0")
 except:
