@@ -15,7 +15,6 @@ def hello(i):
     
 # tryghgmjhkk,:
 
-
     iface = gr.Interface(fn=hello, inputs="text", outputs="text")
     iface.launch(server_name="0.0.0.0")
 # except:
